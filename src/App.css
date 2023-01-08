@@ -36,6 +36,17 @@
   cursor: pointer;
 }
 
+.active {
+  color: purple;
+  font-size: 30;
+}
+
+.pagi{
+  display: flex;
+  justify-content: center;
+  margin: 20px 80px 10px 10px;
+}
+
 @media (max-width: 1000px) {
   .card {
     width: 33.3%;
