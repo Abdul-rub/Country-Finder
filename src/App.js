@@ -7,7 +7,7 @@ function App() {
   const [data, setData] = useState([]);
   const [sorting, setSorting] = useState("");
   const [search, setSearch] = useState("");
-  const [dataPerPage, setDataPerPage] = useState(10);
+  const [dataPerPage, setDataPerPage] = useState(20);
   const [currentPage, setCurrentPage] = useState(1);
 
   useEffect(() => {
